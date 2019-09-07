@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 # @Time : 2019/9/4 18:51
 # @Author : zhaoxuezhao
-# @Site : 数据类型
+# @Site : 数据类型 整数、浮点数、字符串、布尔值、空值、常量、变量、set\dict\list\tuple
 # @File : DataType.py
 # @Software: PyCharm
 

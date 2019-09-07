@@ -40,4 +40,30 @@ ages.pop()
 ages.pop(0)
 print(ages)
 
-#
+# 替换值的时候，直接赋值就可以
+# list中各个元素的数据类型可以不同
+obj=[1,"账单",22,[1,2]]
+print(obj)
+print(obj[3])
+print(obj[3][1])
+print(len(obj))
+print(len(obj[3]))
+
+
+'''
+    python3 中另外一种列表叫元组 tuple 。
+    tuple和list相似，但是tuple一旦初始化后就不可修改。
+    tuple不可修改，更加安全
+'''
+fanleId = ('BJ00001','BJ00002','BJ00003')
+print(fanleId)
+print(fanleId[2])
+
+'''
+    t=t(1) 定义不是只用1个元素的元组，而是数字1这个数， （）既可以表示元祖，也可表示数字小括号
+    所以在定义一个元素的元祖时，末尾要加个 ，
+'''
+t= (1)
+print(t)
+t=(1,)
+print(t)
